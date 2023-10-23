@@ -5,11 +5,6 @@
 #include "adj.h"
 #include <stdlib.h>
 
-/** \brief Funkcja tworzy z tablicy dwuwymiarowej (mapy gry) macierz sąsiedztwa
- *
- *	\param board[][]  [IN] plansza gry
- *	\param adj[][]	  [OUT] macierz sasiedztwa dla planszy gry zaprezentowanej jako graf
-**/
 
 void generateAdjMatrix(int b[BSIZE_HEIGHT][BSIZE_WIDTH], int adj[BSIZE_HEIGHT*BSIZE_WIDTH][BSIZE_HEIGHT*BSIZE_WIDTH]){
 	int n = BSIZE_HEIGHT; 
